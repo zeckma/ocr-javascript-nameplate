@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OCR dengan Tesseract.js</title>
+</head>
+
+<body>
+    <input type="file" accept="image/*">
+    <button id="startButton">Start OCR</button>
+    <div class="progress"></div>
+    <textarea id="output" rows="10" cols="50"></textarea>
+    <div id="imageContainer"></div>
+
+    <script src="ocr.js"></script>
+    <script src='https://cdn.jsdelivr.net/npm/tesseract.js@5/dist/tesseract.min.js'></script>
+</body>
+
+</html>
